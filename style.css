@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.clearfix::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: red;
+  height: 100px;
+  width: 800px;
+}
+
+.sidebar{
+  float: left;
+  background-color: yellow;
+  padding: 20px;
+  height: 400px;
+  width: 200px;
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+
+.main{
+  float: right;
+  background-color: blue;
+  height: 400px;
+  width: 600px;
+}
