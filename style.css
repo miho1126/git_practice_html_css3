@@ -33,3 +33,43 @@
   height: 400px;
   width: 600px;
 }
+
+.footer{
+  background-color: green;
+  height: 100px;
+  width: 800px;
+}
+
+.top{
+  height: 300px;
+  background-color: lightgreen;
+}
+
+.left{
+  float: left;
+  height: 300px;
+  width: 300px;
+  background-color:skyblue;
+}
+
+.right{
+  float: right;
+  height: 300px;
+  width: 300px;
+  background-color: purple;
+}
+
+.bottom{
+  height: 100px;
+  background-color:brown;
+}
+
+.hoge{
+  height: 200px;
+  background-color: pink;
+}
+
+.fuga{
+height: 100px;
+background-color:gray ;
+}
